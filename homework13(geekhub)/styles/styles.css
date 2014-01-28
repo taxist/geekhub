@@ -1,0 +1,339 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:none; }
+a:hover                        { text-decoration:underline; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+body{
+    background:url(../images/background.png)top no-repeat;
+}
+.wrapper{
+    width:900px;
+    height:100%;
+    margin:0 auto;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header h1{
+    float:left;
+    width:167px;
+    height:71px;
+    overflow:hidden;
+    margin:18px 84px 19px 0;
+}
+.header{
+    border-bottom:1px solid grey;
+    overflow:hidden;
+}
+.social_networks li{
+    float:left;
+    margin:41px 0 20px 9px;
+}
+
+.fb{
+    width:24px;
+    height:24px;
+    background:url(../images/facebook.png) no-repeat center #a0b5be;
+    overflow:hidden;
+    border-radius:50%;
+}
+.vk{
+    width:24px;
+    height:24px;
+    background:url(../images/vk.png) no-repeat center #a0b5be;
+    overflow:hidden;
+    border-radius:50%;
+}
+.tw{
+    width:24px;
+    height:24px;
+    background:url(../images/twitter.png) no-repeat center #a0b5be;
+    overflow:hidden;
+    border-radius:50%;
+}
+.yt{
+    width:24px;
+    height:24px;
+    background:url(../images/youtube.png) no-repeat center #a0b5be;
+    overflow:hidden;
+    border-radius:50%;
+}
+.vm{
+    width:24px;
+    height:24px;
+    background:url(../images/vimeo.png) no-repeat center #a0b5be;
+    overflow:hidden;
+    border-radius:50%;
+}
+.social_networks a, .social_networks a:hover{
+    text-shadow: none;
+    color: transparent;
+    font:18px arial;
+    text-decoration:none;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.navigation a{
+    font:bold 15px/27px "PT Sans";
+    color:#396375;
+    text-transform:uppercase;
+}
+.navigation li{
+    float:left;
+    margin:0 0 0 28px;
+}
+.navigation {
+    float:right;
+    margin:40px 0 0 0;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+span.registration{
+    font:53px/60px "trebuchet ms";
+    color:#256988;
+    width:680px;
+    margin:66px 0px 48px 103px;
+    text-align:center;
+    display:block;
+}
+a.registration{
+    font:26px/16px "trebuchet ms";
+    color:white;
+    background:url(../images/register_bg.png)top left no-repeat;
+    width:302px;
+    height:55px;
+    margin:50px 0 6px 292px;
+    padding:14px 6px 0 0;
+    text-align:center;
+    display:block;
+}
+p.about{
+    width:718px;
+    margin:70px 132px 5px;
+    font:15px/22px "arial";
+    color:#4B7589;
+}
+h3 {
+    margin:26px 0 8px 355px;
+    font:19px/23px "trebuchet ms";
+    color:#4B7589;
+    display:block;
+    width:200px;
+    text-align:justify;
+}
+
+h4 {
+    font:28px/27px "trebuchet ms";
+    color:#F46499;
+    margin:0 0 16px 48px;
+}
+
+ul.curs li{
+    overflow:hidden;
+    float:left;
+    font:13px/17px "arial";
+    color:#4B7589;
+    width:410px;
+    margin:23px 30px 6px 0;
+}
+
+ul.curs{
+    border-top:1px solid grey;
+    clear:both;
+}
+ul.curs p{
+    width:260px;
+    float:left;
+    overflow:hidden;
+}
+
+ul.curs li:nth-child(odd){
+    margin:23px 37px 6px 0;
+}
+li.frontend span{
+    background:url(../images/frontend.png)center no-repeat;
+    width:120px;
+    height:120px;
+    display:block;
+    float:left;
+    border:3px dashed #F37AAC;
+    border-radius:100px;
+    overflow:hidden;
+    margin:0 24px 0 0;
+}
+ul.curs li span{
+    width:120px;
+    height:120px;
+    display:block;
+    float:left;
+    border:3px dashed #F37AAC;
+    border-radius:100px;
+    overflow:hidden;
+    margin:2px 24px 0 0;
+}
+
+li.adv_cms span{
+    background:url(../images/adv_cms.png)center no-repeat;
+}
+li.adv_php span{
+    background:url(../images/php.png)center no-repeat;
+}
+li.basic_java span{
+    background:url(../images/basic_java.png)center no-repeat;
+}
+li.java_for_android span{
+    background:url(../images/java_for_android.png)center no-repeat;
+}
+li.pm span{
+    background:url(../images/pm.png)center no-repeat;
+}
+li.qa span{
+    background:url(../images/qa.png)center no-repeat;
+}
+li.tech_eng span{
+    background:url(../images/tech_eng.png)center no-repeat;
+    margin-bottom:30px;
+}
+span.facebook{
+    background:url(../images/facebook_feed.png)top left no-repeat;
+    width:276px;
+    height:198px;
+    display:block;
+    overflow:hidden;
+    float:left;
+    margin:43px 38px 59px 0;
+}
+span.certificates{
+    width:215px;
+    height:194px;
+    background:url(../images/certificates_shadow.png)top left no-repeat;
+    display:block;
+    margin:44px 0 0 0;
+    float:left;
+    padding:0 0 0 64px;
+}
+.certificates img{
+    position:relative;
+    top:-19px;
+}
+.content h5 {
+    margin:36px 0 5px 58px;
+    font:16px/27px "trebuchet ms";
+    color:#447184;
+    text-transform:uppercase;
+    text-align:justify;
+    width:227px;
+    float:left;
+}
+ul.sponsors{
+    margin:0 0 0 0;
+    float:right;
+    width:274px;
+    height:149px;
+    border-top:1px solid grey;
+
+}
+ul.sponsors li{
+    float:left;
+    width:65px;
+    height:65px;
+    margin:0 0 0 8px;
+    margin-top:25px;
+
+}
+.content ul li.dim_evangeliya{
+    background:url(../images/dim_evangeliya.png)top left no-repeat;
+    margin-right:25px;
+}
+.content ul li.moc{
+    background:url(../images/moc.png)top left no-repeat;
+    margin-right:28px;
+}
+.content ul li.sponsor1{
+    background:url(../images/sponsor1.png)top left no-repeat;
+}
+.content ul li.sponsor2{
+    background:url(../images/sponsor2.png)top left no-repeat;
+    margin-left:61px;
+}
+.content ul li.sponsor3{
+    background:url(../images/sponsor3.png)top left no-repeat;
+    margin-left:29px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.footer{
+    margin:57px 0 0 0;
+    clear:both;
+    border-top:#A7C3CF solid 1px;
+    overflow:hidden;
+}
+.footer a{
+    font:bold 11px/28px "arial";
+    color:#396375;
+    text-transform:uppercase;
+}
+.footer span{
+    float:right;
+    margin-top:9px;
+    font:11px/28px arial;
+    color:#A7C3CF;
+}
+.footer ul{
+    margin-top:9px;
+}
+.footer li{
+    float:left;
+    margin:0 22px 20px 0;
+}
+a.active_page,  a.active:hover{
+    padding-bottom:45px;
+    color:#E11D5C;
+    background:url(../images/arrow.png)37% 100% no-repeat;
+}
+
