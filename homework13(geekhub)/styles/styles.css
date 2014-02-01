@@ -189,52 +189,26 @@ ul.curs p{
 ul.curs li:nth-child(odd){
     margin:23px 37px 6px 0;
 }
-li.frontend span{
-    background:url(../images/frontend.png)center no-repeat;
-    width:120px;
-    height:120px;
-    display:block;
-    float:left;
-    border:3px dashed #F37AAC;
-    border-radius:100px;
-    overflow:hidden;
-    margin:0 24px 0 0;
-}
-ul.curs li span{
-    width:120px;
-    height:120px;
-    display:block;
-    float:left;
-    border:3px dashed #F37AAC;
-    border-radius:100px;
-    overflow:hidden;
-    margin:2px 24px 0 0;
-}
-
-li.adv_cms span{
-    background:url(../images/adv_cms.png)center no-repeat;
-}
-li.adv_php span{
-    background:url(../images/php.png)center no-repeat;
-}
-li.basic_java span{
-    background:url(../images/basic_java.png)center no-repeat;
-}
-li.java_for_android span{
-    background:url(../images/java_for_android.png)center no-repeat;
-}
-li.pm span{
-    background:url(../images/pm.png)center no-repeat;
-}
-li.qa span{
-    background:url(../images/qa.png)center no-repeat;
-}
-li.tech_eng span{
-    background:url(../images/tech_eng.png)center no-repeat;
+ul.curs li:nth-child(8){
     margin-bottom:30px;
 }
-span.facebook{
-    background:url(../images/facebook_feed.png)top left no-repeat;
+
+
+ul.curs img{
+    width:90px;
+    height:90px;
+    display:block;
+    float:left;
+    border:3px dashed #F37AAC;
+    border-radius:50%;
+    padding:15px;
+
+    margin:2px 24px 0 0;
+
+}
+
+
+img.facebook{
     width:276px;
     height:198px;
     display:block;
@@ -281,22 +255,15 @@ ul.sponsors li{
 
 }
 .content ul li.dim_evangeliya{
-    background:url(../images/dim_evangeliya.png)top left no-repeat;
     margin-right:25px;
 }
 .content ul li.moc{
-    background:url(../images/moc.png)top left no-repeat;
     margin-right:28px;
 }
-.content ul li.sponsor1{
-    background:url(../images/sponsor1.png)top left no-repeat;
-}
 .content ul li.sponsor2{
-    background:url(../images/sponsor2.png)top left no-repeat;
     margin-left:61px;
 }
 .content ul li.sponsor3{
-    background:url(../images/sponsor3.png)top left no-repeat;
     margin-left:29px;
 }
 /*----------------------------------------------------------------------------------*/
