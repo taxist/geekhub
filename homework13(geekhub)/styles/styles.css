@@ -38,8 +38,9 @@ a:hover                        { text-decoration:underline; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------WRAPPER--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-body{
-    background:url(../images/background.png)top no-repeat;
+.head_wrapper{
+    width:100%;
+    background:url(../images/piece_of_bg.png)top left repeat, url(../images/shadow.png)bottom no-repeat;
 }
 .wrapper{
     width:900px;
@@ -55,11 +56,12 @@ body{
     width:167px;
     height:71px;
     overflow:hidden;
-    margin:18px 84px 19px 0;
+    margin:18px 84px 15px 0;
 }
 .header{
-    border-bottom:1px solid grey;
     overflow:hidden;
+    width:900px;
+    margin:0 auto;
 }
 .social_networks li{
     float:left;
@@ -107,7 +109,33 @@ body{
     font:18px arial;
     text-decoration:none;
 }
-
+span.registration{
+    width:900px;
+    padding-top:47px;
+    border-top:1px solid grey;
+    display:block;
+    overflow:hidden;
+    background:url(../images/bubbles.png)204px 30px no-repeat;
+}
+span.registration  h2{
+    font:53px/60px "trebuchet ms";
+    color:#256988;
+    margin:0 0 0 0;
+    padding:13px 0 32px 0;
+    text-align:center;
+    display:block;
+}
+span.registration a{
+    font:26px/16px "trebuchet ms";
+    color:white;
+    background:url(../images/register_bg.png)top left no-repeat;
+    width:302px;
+    height:55px;
+    margin:21px 0 36px 271px;
+    padding:14px 6px 0 0;
+    display:block;
+    text-align:center;
+}
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------NAV------------------------------------------*/
 /*----------------------------------------------------------------------------------*/
@@ -127,30 +155,15 @@ body{
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-span.registration{
-    font:53px/60px "trebuchet ms";
-    color:#256988;
-    width:680px;
-    margin:66px 0px 48px 103px;
-    text-align:center;
-    display:block;
-}
-a.registration{
-    font:26px/16px "trebuchet ms";
-    color:white;
-    background:url(../images/register_bg.png)top left no-repeat;
-    width:302px;
-    height:55px;
-    margin:50px 0 6px 292px;
-    padding:14px 6px 0 0;
-    text-align:center;
-    display:block;
-}
 p.about{
     width:718px;
-    margin:70px 132px 5px;
+    margin:30px 132px 5px;
     font:15px/22px "arial";
     color:#4B7589;
+}
+p.about a{
+    font:15px/22px "arial";
+    color:#e21d5d;
 }
 h3 {
     margin:26px 0 8px 355px;
@@ -160,7 +173,6 @@ h3 {
     width:200px;
     text-align:justify;
 }
-
 h4 {
     font:28px/27px "trebuchet ms";
     color:#F46499;
@@ -175,7 +187,6 @@ ul.curs li{
     width:410px;
     margin:23px 30px 6px 0;
 }
-
 ul.curs{
     border-top:1px solid grey;
     clear:both;
@@ -185,29 +196,20 @@ ul.curs p{
     float:left;
     overflow:hidden;
 }
-
 ul.curs li:nth-child(odd){
     margin:23px 37px 6px 0;
 }
 ul.curs li:nth-child(8){
     margin-bottom:30px;
 }
-
-
 ul.curs img{
-    width:90px;
-    height:90px;
     display:block;
     float:left;
     border:3px dashed #F37AAC;
     border-radius:50%;
-    padding:15px;
-
+    padding:10px;
     margin:2px 24px 0 0;
-
 }
-
-
 img.facebook{
     width:276px;
     height:198px;
@@ -244,7 +246,6 @@ ul.sponsors{
     width:274px;
     height:149px;
     border-top:1px solid grey;
-
 }
 ul.sponsors li{
     float:left;
@@ -252,7 +253,6 @@ ul.sponsors li{
     height:65px;
     margin:0 0 0 8px;
     margin-top:25px;
-
 }
 .content ul li.dim_evangeliya{
     margin-right:25px;
