@@ -1,0 +1,260 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:14px "Trebuchet MS", sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+body{
+    background:url(../images/bg_header.png)top left repeat-x;
+}
+.wrapper{
+    width:960px;
+    margin:0 auto;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.login{
+    overflow:hidden;
+}
+.login ul{
+    float:right;
+    margin:34px 0 0 0;
+    overflow:hidden;
+}
+.login ul li{
+    display:inline;
+    float:left;
+    padding:0 10px;
+    line-height:14px;
+}
+.login ul li:first-child{
+    border-right:1px solid grey;
+}
+.login a{
+    color:#A5AA3A;
+    font:12px "Trebuchet MS";
+}
+.header{
+    margin:0 0 20px 0;
+}
+.header h1 img{
+    margin:2px 0 0 30px;
+    float:left;
+}
+.photo{
+    clear:both;
+    overflow:hidden;
+}
+.photo img{
+    float:left;
+}
+.photo img:nth-child(2){
+    padding:20px 0;
+}
+.photo img:nth-child(1){
+    margin-top:3px;
+}
+.bg {
+    width:678px;
+    height:450px;
+    overflow:hidden;
+    background:url(../images/ramka.png)top right no-repeat;
+    position:absolute;
+    top:208px;
+    left:478px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.nav{
+    float:right;
+    margin:45px 0 0 0;
+    background:url(../images/line1.png)no-repeat bottom;
+}
+.nav li{
+    display:inline;
+    float:left;
+    text-decoration:none;
+    text-align:center;
+    padding:6px 15px 17px 10px;
+}
+.active{
+    background:url(../images/bg_menu.png)left top repeat-x;
+}
+.active a{
+    color:white;
+}
+.nav li a{
+    margin:auto;
+    font:14px "Trebuchet MS";
+    text-decoration:none;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content{
+    overflow:hidden;
+    padding:12px 0 0 2px;
+    font:14px "Trebuchet MS";
+}
+h2{
+    font:32px/38px "Book Antiqua";
+    color:#607332;
+    margin:0 0 14px 22px;
+}
+.welcome{
+    background-color:#8A993C;
+    padding:0px;
+    border-radius:10px;
+    color:white;
+    overflow:hidden;
+}
+.welcome img{
+    float:right;
+    margin:22px 22px 3px 14px;
+}
+.buzz {
+    padding:6px 0 1px 0;
+    background:#FCFBEF;
+    border-radius:10px;
+}
+.buzz p{
+    margin:15px 22px 25px 22px;
+}
+.welcome p{
+    margin:21px 0 0 22px;
+    line-height:21px;
+}
+.welcome span{
+    color:#DCCC3A;
+    font-size:24px;
+    font-style:italic;
+    margin:15px 0 0 101px;
+    display:block;
+}
+.welcome a{
+    font:20px/24px "Book Antiqua";
+    color:white;
+    margin:10px 0 9px 167px;
+    display:block;
+    padding:5px 30px 10px 0;
+    background:url(../images/arrow_greenbg.png)59% 20% no-repeat;
+}
+a.arrow1{
+    font:16px/19px "Book Antiqua";
+    color:#5F7232;
+    margin:15px 0 18px 22px;
+    display:block;
+    background:url(../images/arrow_green.png)31% no-repeat;
+    padding:10px 0;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.sidebar{
+    width:300px;
+    float:left;
+    height:100%;
+    margin:12px 8px 0 0;
+}
+.sidebar p{
+    margin:13px 0 10px 17px;
+}
+.sidebar span{
+    margin:0 0 0 17px;
+    display:block;
+    font-weight:bold;
+}
+.side_menu{
+    background:#FCFBEF;
+    border-radius:10px;
+    padding:11px 19px 17px 3px;
+    margin:14px 0 19px 0;
+}
+.sidebar h2{
+    margin:0;
+}
+.sidebar a{
+    color:#617432;
+    font:14px/14px "Trebuchet MS";
+    text-decoration:underline;
+    margin-left:9px;
+}
+a.arrow2{
+    font:16px/19px "Book Antiqua";
+    color:#5F7232;
+    margin:15px 0 100px 60px;
+    display:block;
+    background:url(../images/arrow_green.png)60% no-repeat;
+    padding:10px 0;
+}
+.sidebar a.donate{
+    margin:30px 0 0 70px;
+    background:url(../images/donate_bg.png)center no-repeat;
+    padding:70px 25px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer{
+    clear:both;
+    background:url(../images/bg_footer.png) top left repeat-x #F3F6EA;
+    height:195px;
+    width:100%;
+    font-size:12px;
+    overflow:hidden;
+    margin-top:100px;
+}
+.footer ul{
+    float:right;
+    margin:77px 130px 20px 0;
+}
+.footer span {
+    float:left;
+    margin:97px 0 0 145px;
+    display:block;
+}
+.footer a.email{
+    text-decoration:underline;
+    margin:0;
+    float:right;
+    font:12px/18px "trebuchet ms";
+}
+.footer ul li{
+    margin:1px 0 0 0;
+}

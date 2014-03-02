@@ -1,0 +1,232 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:none; }
+a:hover                        { text-decoration:underline; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+body {
+    background:url(../images/header_bg.png)top left repeat-x white ;
+}
+.wrapper{
+    width:900px;
+    margin:0 auto;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header h1{
+    float:left;
+    width:167px;
+    height:71px;
+    overflow:hidden;
+    margin:20px 84px 43px 0;
+}
+.social_networks li{
+    float:left;
+    margin:43px 0 70px 9px;
+}
+.fb{
+    width:24px;
+    height:24px;
+    background:url(../images/facebook.png) no-repeat center #C186AA;
+    overflow:hidden;
+    border-radius:50%;
+}
+.vk{
+    width:24px;
+    height:24px;
+    background:url(../images/vk.png) no-repeat center #C186AA;
+    overflow:hidden;
+    border-radius:50%;
+}
+.tw{
+    width:24px;
+    height:24px;
+    background:url(../images/twitter.png) no-repeat center #C186AA;
+    overflow:hidden;
+    border-radius:50%;
+}
+.yt{
+    width:24px;
+    height:24px;
+    background:url(../images/youtube.png) no-repeat center #C186AA;
+    overflow:hidden;
+    border-radius:50%;
+}
+.vm{
+    width:24px;
+    height:24px;
+    background:url(../images/vimeo.png) no-repeat center #C186AA;
+    overflow:hidden;
+    border-radius:50%;
+}
+.social_networks a{
+    text-shadow: none;
+    color: transparent;
+    font:18px arial;
+}
+.navigation a{
+    font:bold 15px/27px "PT Sans";
+    color:#396375;
+    text-transform:uppercase;
+}
+.navigation li{
+    float:left;
+    margin:0 0 0 29px;
+}
+.navigation {
+    float:right;
+    margin-top:42px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.content{
+    clear:both;
+}
+.content img{
+    border:3px dashed #4C7689;
+    border-radius:80px;
+    padding:8px;
+}
+h2{
+    margin:-6px 0 28px 0;
+    padding-bottom:33px;
+    font:56px/28px "PT Sans";
+    color:#4B7589;
+    border-bottom:#A7C3CF solid 1px;
+}
+
+ul.team :nth-child(odd) h3 {
+    margin:47px 0 5px 62px;
+    width:140px;
+    font:27px/28px "PT Sans" ;
+    color:#E92777;
+    text-align:right;
+    float:left;
+}
+ul.team :nth-child(odd) img{
+    float:left;
+    margin:0 22px 10px 25px;
+}
+ul.team :nth-child(odd) span{
+    display:block;
+    margin:5px 0 10px 0;
+    font:13px/19px arial;
+    color:#F2753D;
+}
+ul.team :nth-child(odd) p{
+    float:left;
+    width:442px;
+    margin:37px 0 52px 0;
+    font:15px/19px arial;
+    color:#4B7589;
+    text-align:left;
+}
+@font-face{
+    font-family: "PT Sans";
+    src: url(http://fonts.googleapis.com/css?family=PT+Sans);
+}
+ul.team :nth-child(even) h3 {
+    margin:47px 55px 5px 0;
+    width:140px;
+    font:27px/28px "PT Sans" ;
+    color:#E92777;
+    text-align:left;
+    float:right;
+}
+ul.team :nth-child(even) img{
+    float:right;
+    margin:0 23px 19px 25px;
+}
+ul.team :nth-child(even) span{
+    display:block;
+    margin:5px 0 10px 0;
+    font:13px/19px arial;
+    color:#F2753D;
+
+}
+ul.team :nth-child(even) p{
+    float:right;
+    width:442px;
+    margin:37px 0 52px 0;
+    font:15px/19px arial;
+    color:#4B7589;
+    text-align:right;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer{
+    padding-bottom:500px;
+    clear:both;
+    border-top:#A7C3CF solid 1px;
+}
+.footer a{
+    font:bold 11px/28px "arial";
+    color:#396375;
+    text-transform:uppercase;
+}
+.footer span{
+    float:right;
+    margin-top:9px;
+    font:11px/28px arial;
+    color:#A7C3CF;
+}
+.footer ul{
+    margin-top:9px;
+}
+.footer li{
+    float:left;
+    margin:0 22px 20px 0;
+}
+a.active_page,  a:hover{
+    padding-bottom:45px;
+    color:#E11D5C;
+    background:url(../images/arrow.png)37% 100% no-repeat;
+}
+

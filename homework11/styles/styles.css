@@ -1,0 +1,301 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:none; }
+a:hover                        { text-decoration:underline; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+body{
+    background:url(../images/background.png)top repeat-x;
+}
+.wrapper{
+    margin:0 auto;
+    width:780px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.login{
+    height:40px;
+}
+.login ul{
+    float:right;
+    padding:6px 10px 7px 10px;
+    background-color:white;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+
+
+}
+.login li {
+    float:left;
+    padding:0 11px;
+    line-height:0;
+}
+.login a{
+    font:11px/10px "Arial";
+    text-transform:lowercase;
+    color:#747474;
+
+}
+.login li:first-child{
+    border-right:1px solid #959595;
+
+}
+
+.header{
+    border-bottom:solid 1px grey;
+    padding:0 0 122px 0;
+    position:relative;
+    z-index:1;
+}
+.header img{
+    float:left;
+    margin:0;
+}
+
+.header h1{
+    margin:10px 30px 10px 10px;
+    float:right;
+    display:block;
+    text-align:right;
+    font:15px/33px "Helios";
+    color:#646464;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.nav li a{
+    font: 16px/8px  "arial" ;
+    color:#939598;
+    text-transform:lowercase;
+    display:block;
+    padding:16px 0 20px 0;
+}
+.nav li.active a{
+    color:#45B8FB;
+}
+.nav{
+    float:right;
+    margin:24px 27px 0 0;
+    position:absolute;
+    top:52px;
+    left:350px;
+}
+.nav li{
+    width:132px;
+    height:45px;
+    float:left;
+    text-align:center;
+    border:1px solid #939598;
+    border-bottom:none;
+}
+.nav li.first{
+    border-top-left-radius:25px;
+}
+.nav li.last{
+    border-top-right-radius:25px;
+}
+.nav li.active{
+    background:url(../images/gradient.png)left top repeat-x;
+    border-bottom:solid 1px #e8eced;
+    z-index:9999;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content{
+    margin:50px 0 95px 0;
+    font:12px/33px "arial";
+    color:#444444;
+    overflow:hidden;
+}
+
+#title{
+    color:#000000;
+    font:26px/33px "arial";
+    padding-bottom:12px;
+    border-bottom:1px solid #00A7FB;
+}
+
+
+.content h3{
+    font:18px "arial";
+    color:#03A7FE;
+    margin:12px 0 20px 0;
+}
+
+.content img {
+    float:left;
+    margin:16px 20px 0 9px;
+}
+.content a{
+    color:#03a7fe;
+}
+
+
+.content dl{
+    width:393px;
+    font:12px/24px "Arial";
+    color:black;
+    float:left;
+    margin-bottom:29px;
+}
+
+.content dt,.content dd{
+    background:#dfe5e6;
+    border-bottom:3px solid white;
+}
+.content dt{
+    padding-left:9px;
+    color:#505050;
+    display:block;
+    float:left;
+}
+.content dl dt:nth-child(6),.content dl dt:nth-child(8){
+    background:#ecf0f1;
+}
+.content dl dt:nth-child(5),.content dl dt:nth-child(6),.content dl dt:nth-child(7),.content dl dt:nth-child(8),.content dl dt:nth-child(9){
+    border:none;
+}
+.content dl dd{
+    padding:0 0 0 220px;
+}
+.content dl dd.phone{
+    background:url(../images/call.png)58% 50%  no-repeat #edf0f1;
+    padding-left:241px;
+}
+.content dl dd.skype{
+    background:url(../images/skype.png)58% 50%  no-repeat #dfe5e6;
+    padding-left:241px;
+}
+.content dl dd.email{
+    background:url(../images/dog.png)58% 50% no-repeat #edf0f1;
+    padding-left:241px;
+}
+.content dl dd.twitter{
+    background:url(../images/twitter.png)58% 50%  no-repeat #dfe5e6;
+    padding-left:241px;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.sidebar{
+    width:230px;
+    float:left;
+    margin:22px 10px 150px 0;
+}
+.sidebar h3{
+    margin:0 0 20px 0;
+    color:#03A7FE;
+    font:20px bold;
+    background:url(../images/triangle.png)50%  no-repeat ;
+}
+.sidebar a{
+    font:14px/33px  "arial";
+    color:#545454;
+
+}
+.sidebar li{
+    margin:-2px 19px 0 0;
+    padding:0 0 0 20px;
+    background:url(../images/arrow_blue.png)0% 40% no-repeat;
+    border-bottom:solid 1px grey;
+}
+
+.our_friends li{
+    border:none;
+    background:none;
+    margin:20px auto;
+    text-align:center;
+}
+.our_friends li:first-child{
+    border-top:solid 1px grey;
+    border-bottom:solid 1px grey;
+    padding:14px 0 12px 0;
+    margin-top:40px;
+}
+.our_friends li:first-child a{
+    border:3px solid #FF9600;
+    font:21px/19px "AFKlampenborg";
+    color:#939598;
+    border-radius:200px;
+    padding:0 21px 0 46px;
+    background:url(../images/rss.png)30% 50% no-repeat;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer{
+    margin:95px 0 0 0;
+    clear:both;
+    border-top:1px solid grey;
+    font:10px "arial";
+    color:#77797B;
+    padding-bottom:65px;
+}
+.footer a{
+    color:black;
+}
+.footer p{
+    float:right;
+    border:1px solid transparent;
+    border-top:none;
+    border-bottom-left-radius:17px;
+    border-bottom-right-radius:17px;
+    margin:0 25px 0 0;
+    padding:5px 282px 9px 12px;
+    background:url(../images/moc_logo.png)98% 40% no-repeat #d9dada;
+}
+
+/* RSS вынести из СПИСКА и сделать её не картинкой а нарисовать кодом
+
+
+
+
+
+  */
+
+
+
+

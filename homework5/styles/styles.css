@@ -1,0 +1,125 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:1150px; height:100%; }
+body                            { padding:0; margin:10px; font:12px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; column-rule: #000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.red_link {
+     color:mediumvioletred;
+}
+h1 {
+    background-color:black;
+    color:white;
+    line-height:2 ;
+}
+ul  {
+    padding:0;
+    margin-left:20px;
+}
+.site_params  li {
+    list-style:square;
+    padding:10px 10px 10px 0px;
+    margin-left:0px;
+}
+
+.bold {
+    font-weight:bold;
+}
+.history1  {
+    border:2px solid #0E5E3B ;
+    background-color:#CCCCCC ;
+    padding: 20px;
+    margin:10px;
+    text-align:right;
+}
+.italic {
+    font-style: italic;
+}
+
+.history2 {
+    width:480px;
+    border-bottom:2px dashed #D7F94A;
+    border-top:2px dashed #D7F94A;
+    background-color:#006B00;
+    margin:20px auto 0px;
+    padding:30px;
+    color:#D7F94A;
+    font-size:16px;
+    font-weight:bold;
+    }
+
+.opt_methods{
+    color:blue;
+    padding:10px;
+    font-weight:bold;
+}
+
+#methods  li{
+    list-style:circle outside;
+    padding:5px 5px 5px 0px;
+    margin-left:20px;
+    }
+
+li span{
+    color:#C0C100;
+    background-color:black;
+    font-size:16px;
+    font-weight:bold;
+}
+
+p span {
+font-style:italic;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
